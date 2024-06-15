@@ -1,0 +1,18 @@
+import { SafeAreaView, StyleSheet } from 'react-native'
+import React from 'react'
+import Calculator from './Components/home/calculator'
+
+ function App() {
+  return (
+    <SafeAreaView style={styles.container}>
+      <Calculator/>
+    </SafeAreaView>
+  )
+}
+const styles = StyleSheet.create({
+  container:{
+    flex:1,
+    backgroundColor:'#f5f5f5'
+  }
+})
+export default App
